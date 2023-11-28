@@ -1,0 +1,31 @@
+:root{
+    --pink: #b96277;
+    --darkpink: #793041;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right top, var(--darkpink), var(--pink));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    overflow-x: hidden;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    max-width: 390px;
+}
+div{
+    margin: 10px;
+    text-align: left;
+}
+p{
+    color: pink;
+}
+.rodo{
+    font-size: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
